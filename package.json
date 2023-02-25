@@ -21,6 +21,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "notiflix": "^3.2.6"
   }
 }
