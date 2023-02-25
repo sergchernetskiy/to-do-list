@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d102e;
+}
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 0;
+  border-bottom: 2px solid #11998e;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  color: #ec4899;
+  background-color: linear-gradient(to right, #ec4899, #8b5cf6);
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  width: 500px;
+  height: 40px;
+  background-color: #cfbdc0;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  padding-left: 8px;
+  font-size: 18px;
+}
+
+.input:hover,
+input:focus {
+  background-color: #eadbc6;
+  color: #188c69;
+}
+
+.button {
+  display: block;
+  border: 1px solid #eadbc6;
+  border-radius: 5px;
+  color: #ec4899;
+  background-color: #374151;
+  background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 4px 30px;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #78ffd6;
+  background-image: linear-gradient(to right, #78ffd6, #0083b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #00b4db;
+}
+
+.item {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 55%;
+  background-color: #cfbdc0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.input__text {
+  background: #cfbdc0;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.button__task,
+.button__edit {
+  display: block;
+  border: 1px solid #eadbc6;
+  border-radius: 5px;
+  color: #fff;
+  background-image: linear-gradient(to right, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 4px 30px;
+  min-width: 100px;
+  cursor: pointer;
+}
+
+.button__task:hover {
+  color: crimson;
+  background-image: linear-gradient(to right, crimson, crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid crimson;
+}
+
+.button__edit:hover {
+  color: #11998e;
+  background-image: linear-gradient(to right, #11998e, #11998e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #11998e;
+}
+
+.text {
+  flex-grow: 2;
+  line-height: 2;
+  margin: 0;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.checked {
+  opacity: 0.5;
+}
+
+.checked .text {
+  text-decoration: line-through;
+}
+
+.list {
+  padding: 20px;
+}
+
+.is-active {
+  background: tomato;
+}
