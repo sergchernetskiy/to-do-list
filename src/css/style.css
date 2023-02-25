@@ -8,6 +8,13 @@ ol {
   padding: 0;
 }
 
+.author {
+  color: #2bb6ab;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -52,7 +59,6 @@ input:focus {
   border: 1px solid #eadbc6;
   border-radius: 5px;
   color: #ec4899;
-  background-color: #374151;
   background-image: linear-gradient(to right, #ec4899, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -141,8 +147,4 @@ input:focus {
 
 .list {
   padding: 20px;
-}
-
-.is-active {
-  background: tomato;
 }
